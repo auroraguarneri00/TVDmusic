@@ -1,0 +1,55 @@
+h1 { text-align: center; }
+h1 {font-family: Charm, cursive;
+font-size: 65px;}
+h1 {color: #CC0000;}
+a {color: #F8F8FF;}
+p {text-align: center;}
+footer {text-align: center;}
+footer {font-family: Raleway, sans-serif;
+font-size: 13px;}
+body {font-family: Raleway, sans-serif;}
+.bg-dark{
+  background-color: black !important;
+} 
+
+
+body {background-repeat: no-repeat;  
+      background-image: url("../img/bleeding rose.jpg");
+    background-size: cover;
+    background-attachment: fixed;}
+body {color: #F8F8FF;} 
+i {font-size: 40px;}
+
+a {text-decoration: none; font-weight: bolder;}
+.nav-link {color: #F8F8FF; font-weight: bolder;}
+a:hover {color:#CC0000 !important; }  
+.fa-spotify {
+	color: green;
+}
+.opacity:hover {width: 15%;
+		opacity: 0.5;
+		border-width: 0.5in;
+		transition-duration: 2s;}
+
+/**** responsive section that applies just into small screen ****/
+
+@media only screen and (max-width: 390px) {
+  body {
+    background-image: url("../img/bleeding rose mobile.jpg");
+  }
+  h1 {font-family: Charm, cursive;
+	font-size: 20px;}
+}
+
+
+
+
+
+
+
+
+	
+
+
+
+
